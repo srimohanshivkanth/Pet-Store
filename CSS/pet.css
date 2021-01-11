@@ -1,0 +1,140 @@
+h1
+ {
+	line-height: 2.0;
+	background-color: #000033;
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+h3{
+	color: #3399CC;
+	font-family: Georgia, serif;
+	font-size: 20px;
+}
+body
+{
+	font-family: Verdana, Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #666666;
+	margin:0;
+	padding:0;
+	font-size: 13px;
+	
+}
+	
+nav
+{
+	background-color: #90C7E3;
+	font-weight: bold;
+	height: 100%;
+	text-align: left;
+	margin: 0;
+	padding: 15px;
+	border: 0px;
+}
+
+footer {
+	text-align: center;
+	font-family: italic;
+	font-size: 0.7em;
+}
+
+#wrapper{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 2px 5px #888888;
+	overflow: hidden;
+	
+}
+
+#content {
+  float: right ;
+  width: 80% ;
+  margin: 0;
+  box-shadow: 2px #888888;
+}
+#navbar {
+  float: left;
+  width: 20%;
+  margin: 0;
+  padding: 0px;
+	
+}
+#innercontent {
+  padding-left: 0px ;
+  padding-right: 0px ;
+}
+#innernavbar {
+  padding-left: 0px ;
+  padding-right: 0px ;
+}
+@media (min-width: 1281px) {
+#Content{float:left;width:85%;}
+#navbar{float:left;width:15%}
+} 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+#Content{float:left;width:85%;}
+#navbar{float:left;width:15%}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+#Content{width:100%;}
+#navbar{width:100%; height: 50%} 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	#Content{width:100%;}
+#navbar{width:100%; height: 50%} 
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	#Content{width:100%;}
+#navbar{width:100%; height: 50%} 
+}
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+#Content{width:100%;}
+#navbar{width:100%; height: 50%}    
+}
+
+img {
+    max-width: 100%;
+}
+iframe, object, embed{
+width: 100%;
+}
+
+table {
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	border-collapse: collapse;
+	align-self: center;
+}
+
+th {
+	color: white;
+	background-color: #000033;
+	line-height: 200%;
+	margin: 0px;
+	padding: 5px;
+	border: 0px;
+	font-size: 25px;
+}
+td
+{
+	margin:0px;
+	padding:0px;
+	border: 0px;
+	font-size: 14px;
+}
+
+#x
+{
+	padding-left: 20px;
+}
